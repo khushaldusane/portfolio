@@ -228,19 +228,18 @@ document.addEventListener('DOMContentLoaded', () => {
    ========================================================================== */
 const projectDetails = {
     bike: {
-        title: "Bike Sales Analysis",
+        title: "Dunnhumby Retail Analysis",
         category: "SQL Analytics & Database Querying",
         badgeClass: "badge-sql",
-        image: "images/Bike.jpg",
-        description: "An exploratory and relational SQL analysis analyzing multi-region bicycle sales, revenue distributions, and seasonal performance variations.",
+        image: "images/dunnhumby.jpg",
+        description: "An exploratory and relational SQL analysis analyzing transaction records to evaluate customer purchasing behavior, track product performance, and uncover transaction patterns to inform retail business decisions.",
         highlights: [
             "Extracted and cleaned large sales records using advanced SQL queries, subqueries, and window functions.",
-            "Identified top-performing bike models and high-margin accessories contributing to 60%+ of net margins.",
-            "Analyzed customer demographics and repeat purchase habits to recommend targeted promotional cycles.",
-            "Benchmarked regional sales representatives and calculated monthly compound growth figures."
+            "Evaluated customer purchase frequency and promotional coupon effectiveness to extract actionable insights for data-driven retail decision-making.",
+            "Analyzed customer demographics and repeat purchase habits to recommend targeted promotional cycles."
         ],
         technologies: ["SQL", "MySQL", "Relational DB", "Window Functions", "Data Aggregation"],
-        githubLink: "https://github.com/khushaldusane/SQL/tree/main/Bikes%20Data%20Insights"
+        githubLink: "https://github.com/khushaldusane/SQL/tree/main/Dunnhumby%20Retail%20Analytics"
     },
 
     bank: {
